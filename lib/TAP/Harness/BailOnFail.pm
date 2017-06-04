@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent qw(TAP::Harness::Restricted);
 
-our $VERSION = '0.001';
+our $VERSION = '0.02';
 
 sub new {
     my $class = shift;
@@ -25,7 +25,6 @@ sub new {
 
     return $self;
 }
-
 
 1;
 
